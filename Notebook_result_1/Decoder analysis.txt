@@ -1,0 +1,17 @@
+Perfect match
+MLP got correct molecules for 0 
+GRU got correct molecules for 0 
+Vec2Text got correct molecules for 0 
+
+Token-mathc
+MLP Token-match (micro): 37.632117%
+MLP Token-match (macro): 37.638002%
+GRU Token-match (micro): 37.854161%
+GRU Token-match (macro): 37.760509%
+Vec2Text Token-match (micro): 20.188294%
+Vec2Text Token-match (macro): 20.464487%
+
+Property-match
+MSE for MLP decoded SMILES strings are 528.8125136736647
+MSE for GRU decoded SMILES strings are 1289.128345364742
+MSE for Vec2Text decoded SMILES strings are 612.2118788812904

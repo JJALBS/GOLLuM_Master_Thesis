@@ -1,0 +1,1 @@
+Best hyperparams: {'middle_layer': 2, 'hg_growth_factor': 1.1312806647840628, 'dropout_rate_mid': 0.14711931063926412, 'gru_depth': 2, 'recurrent_dim': 192, 'tgru_dropout': 0.292331429980366, 'temperature': 0.9538814917356042, 'lr': 0.004266712659326912, 'batch_size': 128, 'weight_decay': 0.0015644700553317634}

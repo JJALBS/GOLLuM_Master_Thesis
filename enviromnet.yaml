@@ -1,0 +1,28 @@
+name: gollum+_master_thesis
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.12
+  - pytorch=2.7.1
+  - torchvision=0.22.1
+  - torchaudio=2.7.1
+  - pytorch-cuda=12.8
+  - rdkit
+  - pip
+  - pip:
+      - numpy==2.1.3
+      - pandas==2.3.0
+      - matplotlib==3.10.0
+      - ipykernel==6.29.5
+      - pubchempy==1.0.4
+      - selfies==2.2.0
+      - guacamol==0.5.2
+      - scikit-learn==1.7.1
+      - ipywidgets==8.1.7
+      - optuna==4.4.0
+      - transformers==4.53.3
+      - peft==0.16.0
+      - wandb==0.21.0
+      - botorch==0.14.0

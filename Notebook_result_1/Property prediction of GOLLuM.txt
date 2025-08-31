@@ -1,0 +1,1 @@
+The Mean Square Error of GOLLuM LogP prediction is 0.35315434821350883
