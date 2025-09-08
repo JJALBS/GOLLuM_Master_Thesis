@@ -1,10 +1,10 @@
 # GOLLuM+ — GP–LLM Integration for Molecular Design
 
-Research code accompanying the MSc thesis project on **Gaussian-process–guided optimization over LLM embeddings for molecular design** (property focus: **logP**). The repository implements a **GOLLuM-style deep-kernel Gaussian Process (GP)** coupled with **LLM-based molecular embeddings** and benchmarks multiple **sequence decoders** (GRU and Vec2Text-style) within **Bayesian optimization** workflows.
+Research code accompanying the MSc thesis project on **Gaussian-process–guided optimization over LLM embeddings for molecular design** (property focus: **logP**). The repository implements a **GOLLuM-style deep-kernel Gaussian Process (GP)** coupled with **LLM-based molecular embeddings** and benchmarks multiple **sequence decoders** (MLP, GRU and Vec2Text-style) within **Bayesian optimization** workflows.
 
 > **At a glance**
 > - Deep-kernel GP operating on LLM embeddings (T5-family; LoRA-friendly design).
-> - Decoders for SELFIES/SMILES reconstruction: **GRU** and **Vec2Text-style**.
+> - Decoders for SELFIES/SMILES reconstruction: **MLP**, **GRU** and **Vec2Text-style**.
 > - Two BO modes:
 >   1) **Iterative BO** using the Deep GP as the objective in latent space.
 >   2) **Decoder-driven BO** treating the decoder as a black-box objective.
